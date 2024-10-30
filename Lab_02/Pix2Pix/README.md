@@ -18,5 +18,9 @@ python train.py
 ```
 
 # Results
+## citysacpes_dataset   image_rgb to image_semantic  UNet
+## val loss curve
+![](Image/val_loss_curve.png)
+## image_val during the training epochs
 
 
