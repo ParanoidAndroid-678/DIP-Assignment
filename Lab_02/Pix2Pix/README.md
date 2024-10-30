@@ -1,8 +1,9 @@
-# Implementation of Pix2Pix
-
+# Implementation of Pix2Pix with PyTorch
+deep learning-based DIP (Pix2Pix) with PyTorch
 # requirements
 To install requirements:
 ```
+python -m pip install -r requirements.txt
 ```
 
 # Running
