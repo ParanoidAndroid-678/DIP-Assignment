@@ -54,6 +54,23 @@ UNet
 对于shoes2edges任务，模型容易收敛到局部最优解中（输出完全为白色的图片，图片每一个像素点RGB channel均为255）
 
 ## edges2shoes
+### epoch 100
+![](Image/result_4_1.png)
+### epoch 200
+![](Image/result_4_2.png)
+### epoch 300
+![](Image/result_4_3.png)
+### epoch 400
+![](Image/result_4_4.png)
+### epoch 500
+![](Image/result_4_5.png)
+### epoch 600
+![](Image/result_4_6.png)
+### epoch 700
+![](Image/result_4_7.png)
+### epoch 800
+![](Image/result_4_8.png)
+
 
 
 
