@@ -129,6 +129,8 @@ def cal_laplacian_loss(foreground_img, foreground_mask, blended_img, background_
     """
 
     laplacian_kernel = torch.tensor([[0, 1, 0], [1, -4, 1], [0, 1, 0]], dtype=torch.float32).unsqueeze(0).unsqueeze(0).repeat(1, 3, 1, 1)
+    device = foreground_img.device
+    laplacian_kernel = laplacian_kernel.to(device)
     
     foreground_laplacian = F.conv2d(foreground_img, laplacian_kernel, padding=1)
     blended_laplacian = F.conv2d(blended_img, laplacian_kernel, padding=1)
