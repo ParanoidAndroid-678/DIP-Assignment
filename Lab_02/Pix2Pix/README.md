@@ -44,7 +44,7 @@ UNet
 ![](Image/result_2_5.png)
 ### epoch 400
 ![](Image/result_2_6.png)
-### cityscapes_dataset 数据量较小，泛化能力较差
+### cityscapes_dataset 数据量较小，训练后的模型泛化能力较差
 
 # edges2shoes dataset, image_val during the training epochs
 (Forget to save the train/val loss to txt file during the training epochs)
