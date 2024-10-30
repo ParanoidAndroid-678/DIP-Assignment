@@ -12,6 +12,9 @@ python run_blending_gradio.py
 ```
 
 # Results
+```
+python run.py
+```
 ## loss curve
 ![](Image/loss_curve.png)
 
