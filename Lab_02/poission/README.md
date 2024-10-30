@@ -1,4 +1,5 @@
-# Implementation of 
+# Implementation of Poission Image Editing
+tradition DIP (Poission Image Editing) with PyTorch
 
 # requirements
 ```
