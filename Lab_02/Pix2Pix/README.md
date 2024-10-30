@@ -22,10 +22,29 @@ python train.py
 # Results
 ## Training
 citysacpes_dataset 
+
 image_rgb to image_semantic  
+
 UNet
+
 ## val loss curve
 ![](Image/val_loss_curve.png)
 ## image_val during the training epochs
+epoch 50
+![](Image/result_2.png)
+epoch 100
+![](Image/result_2 (1).png)
+epoch 150
+![](Image/result_2 (2).png)
+epoch 200
+![](Image/result_2 (3).png)
+epoch 250
+![](Image/result_2 (4).png)
+epoch 300
+![](Image/result_2 (5).png)
+epoch 400
+![](Image/result_2 (6).png)
+
+
 
 
