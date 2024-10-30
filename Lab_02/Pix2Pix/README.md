@@ -46,5 +46,14 @@ UNet
 ![](Image/result_2_6.png)
 
 
+# edges2shoes dataset, image_val during the training epochs
+(Forget to save the train/val loss to txt file during the training epochs)
+对于edges2shoes任务，使用的UNet模型较为简单，val_loss降不下来，（难以生成不同的颜色图片）
+对于shoes2edges任务，模型容易收敛到局部最优解中（输出完全为白色的图片，图片每一个像素点RGB channel均为255）
+## edges2shoes
+
+
+
+
 
 
