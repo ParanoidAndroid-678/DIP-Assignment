@@ -8,18 +8,22 @@ python -m pip install -r requirements.txt
 
 # Running
 
+prepare dataset
 ```
 bash download_cityscapes_dataset.sh
 python cityscapes_datasets.py
 ```
 
+train
 ```
 python train.py
 ```
 
 # Results
 ## Training
-citysacpes_dataset     image_rgb to image_semantic    UNet
+citysacpes_dataset 
+image_rgb to image_semantic  
+UNet
 ## val loss curve
 ![](Image/val_loss_curve.png)
 ## image_val during the training epochs
