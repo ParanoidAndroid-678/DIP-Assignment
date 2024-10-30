@@ -12,4 +12,11 @@ python run_blending_gradio.py
 ```
 
 # Results
+## loss curve
+![](image/loss_curve.png)
+foreground image
+![](image/01.jpg)
+background image
+bending
+![](image/image_0.png)
 
