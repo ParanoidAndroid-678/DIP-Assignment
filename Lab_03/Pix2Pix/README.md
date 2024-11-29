@@ -53,6 +53,8 @@ python pix2pix.py
 
 # edges2shoes dataset
 GAN训练过程中未收敛到预想的纳什均衡（discriminator无法识别出真实图片与generator生成的图片）
+仅在训练初期出现预想的生成对抗过程，而后discriminator loss趋于0，generator loss随training epoch的增大而增大
+generator生成的图片效果不好
 ## lambda=10
 ![](Image/10.png)
 ## lambda=100
