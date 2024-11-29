@@ -21,3 +21,8 @@ Install face-alignment
 pip install face_alignment
 pip install skimage
 ```
+
+## running
+```
+pyhton editting_face_automatically.py
+```
