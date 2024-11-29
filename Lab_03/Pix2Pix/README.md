@@ -53,3 +53,7 @@ python pix2pix.py
 
 # edges2shoes dataset
 GAN训练过程中未收敛到预想的纳什均衡（discriminator无法识别出真实图片与generator生成的图片）
+## lambda=10
+![](Image/10.png)
+## lambda=100
+![](Image/100.png)
