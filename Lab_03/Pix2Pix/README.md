@@ -5,14 +5,14 @@ Generator 与Lab_02中相同的UNet网络结构
 
 Discriminator  Patch GAN
 
-\[
-L_{cGAN}(G,D) = E_{x,y}[logD(x,y)] + E_{x,z}[log(1-D(x,G(x,z)))]
-G^* = argmin_G max_D L_{cGAN}(G,D)
-\]
 
-\[
-L_{L1}(G) = E_{x,y,x}[||y-G(x,z)||_1]
-\]
+$$L_{cGAN}(G,D) = E_{x,y}[logD(x,y)] + E_{x,z}[log(1-D(x,G(x,z)))]$$
+$$G^* = argmin_G max_D L_{cGAN}(G,D)$$
+
+
+$$L_{L1}(G) = E_{x,y,x}[||y-G(x,z)||_1]$$
+
+
 loss_D
 ```
         optimizer_D.zero_grad()
