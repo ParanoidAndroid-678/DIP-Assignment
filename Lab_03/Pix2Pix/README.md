@@ -68,3 +68,10 @@ generator生成的图片效果不好
 ![](Image/10.png)
 ## lambda=100
 ![](Image/100.png)
+generator loss最低时生成图片效果
+![](Image/result_3.png)
+![](Image/result_5.png)
+
+# facades datasets
+## lambda=10
+![](Image/10_1.png)
