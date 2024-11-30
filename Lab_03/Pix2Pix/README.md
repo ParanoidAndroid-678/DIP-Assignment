@@ -11,6 +11,7 @@ $$G^* = argmin_G max_D L_{cGAN}(G,D)$$
 
 
 $$L_{L1}(G) = E_{x,y,x}[\left|\left|y-G(x,z)\right|\right|_1]$$
+
 $$G^* = argmin_G max_D L_{cGAN}(G,D) + \\lambda L_{L1}(G)$$
 
 loss_D
