@@ -68,10 +68,16 @@ generator生成的图片效果不好
 ![](Image/10.png)
 ## lambda=100
 ![](Image/100.png)
-generator loss最低时生成图片效果
+
+### generator loss最低时生成图片效果
 ![](Image/result_3.png)
 ![](Image/result_5.png)
 
 # facades datasets
 ## lambda=10
 ![](Image/10_1.png)
+
+# 后续优化结果方法
+调参 （hyperparameter） generator discriminator网络结构 初始化参数 lambda  加入dropout层
+
+使用合适的损失函数 Wassertein GAN；加入梯度惩罚项
